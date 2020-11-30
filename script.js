@@ -216,6 +216,6 @@ function restart() {
 	playing = true
 	turn = 0
 	player = "X"
-	document.getElementById("player").textContent = `Player: ${player}`
+	document.getElementById("player").textContent = `Player: Player 1`
 	document.getElementById("turn").textContent = `Turn: ${turn}`
 }
